@@ -180,7 +180,7 @@ def plot_select_region(null, alt, alpha):
 
 # EXAMPLES
 # null = [.10, .13, .07, .20, .28, .22]
-# alt = [.04, .30, .21, .16, .34, .05]
+# alt = [.04, .25, .21, .11, .34, .05]
 # alpha = .15
 # plot_discrete_regions(null, alt)
 # plot_discrete_regions_plus(null, alt)
