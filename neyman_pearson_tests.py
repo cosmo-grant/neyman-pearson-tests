@@ -13,7 +13,7 @@ from operator import itemgetter
 
 # recipe from itertools page
 def powerset(iterable):
-    """Returns stream of all subsets of the iterable.
+    """Returns a stream of all subsets of the iterable.
 
     For example: [1,2,3] --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3).
     """
@@ -168,7 +168,15 @@ def which_region(null, alt, alpha):
 
 
 def plot_select_region(null, alt, alpha):
-    """TODO"""
+    """Plots which rejection region is selected under the standard protocol.
+
+    Args:
+        null: List of likelihoods under the null hypothesis.
+        alt: List of likelihoods under the alternative hypothesis.
+        alpha: The maximum acceptable size.
+
+    Returns:
+        figure and axis objects, to allow additional modification if desired."""
     sizes, powers = discrete_regions(null, alt)
     fig, ax = plot_discrete_regions_plus(null, alt)
     ax.plot([alpha, alpha], [0, 1], color='red')
