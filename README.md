@@ -31,7 +31,7 @@ Still, there are multiple likelihood ratio tests. Can we give the florist more s
 
 The function **which_region** shows this proposal in action:
 
-<img src="plot_1.png">
+<img src="plot_2.png">
 
 The red line is the maximum acceptable size. The black blob is the region selected according to our third proposal.
 
