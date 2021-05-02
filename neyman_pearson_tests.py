@@ -186,9 +186,8 @@ def plot_select_region(null, alt, alpha):
     return fig, ax
 
 
-# EXAMPLES
-# null = [.10, .13, .07, .20, .28, .22]
-# alt = [.04, .25, .21, .11, .34, .05]
+# null = [.001, .015, .088, .264, .396, .237]
+# alt = [.168, .360, .309, .132, .028, .002]
 # alpha = .15
 # plot_discrete_regions(null, alt)
 # plot_discrete_regions_plus(null, alt)
