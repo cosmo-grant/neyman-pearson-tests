@@ -3,6 +3,8 @@
 @author: Cosmo
 
 Computes and visualizes Neyman-Pearson tests.
+
+See README.md for more detail.
 """
 
 
@@ -184,11 +186,3 @@ def plot_select_region(null, alt, alpha):
     ax.scatter(sizes[index], powers[index], s=100, color='darkblue')
 
     return fig, ax
-
-
-# null = [.001, .015, .088, .264, .396, .237]
-# alt = [.168, .360, .309, .132, .028, .002]
-# alpha = .15
-# plot_discrete_regions(null, alt)
-# plot_discrete_regions_plus(null, alt)
-# plot_select_region(null, alt, alpha)
