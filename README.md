@@ -19,19 +19,19 @@ But which rejection region to pick? A rejection region's *size* is the probabili
 
 The function **plot_discrete_regions** plots the size and power of every rejection region:
 
-<img src="plot_0">
+<img src="plot_0.png">
 
 Low size and high power pull in opposite directions. So the florist needs to trade them off. How? Region 1 dominates Region 2 if it has lower size and higher power (with at least one inequality strict). This much is clear: the florist should choose an undominated region. The Neyman-Pearson Lemma says that rejection regions which take a special form---*likelihood ratio tests*---are undominated. So our second proposal is: choose a likelihood ratio test.
 
 The function **plot_discrete_regions_plus** shows which regions are undominated (blue blobs) and which regions are likelihood ratio tests (big blobs). (Note that all big blobs are blue, by the Neyman-Pearson Lemma, but the converse is false.)
 
-<img src="plot_1">
+<img src="plot_1.png">
 
 Still, there are multiple likelihood ratio tests. Can we give the florist more specific advice? This leads to the third proposal: Choose a maximum acceptable size. Among likelihood ratio tests of at most that size, choose the one with the highest power.
 
 The function **which_region** shows this proposal in action:
 
-<img src="plot_1">
+<img src="plot_1.png">
 
 The red line is the maximum acceptable size. The black blob is the region selected according to our third proposal.
 
