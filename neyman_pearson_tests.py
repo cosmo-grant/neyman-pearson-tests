@@ -2,9 +2,9 @@
 """
 @author: Cosmo
 
-Computes and visualizes Neyman-Pearson tests.
+Provides functions to illustrate Neyman-Pearson tests.
 
-See README.md for more detail.
+See README.md for details.
 """
 
 
