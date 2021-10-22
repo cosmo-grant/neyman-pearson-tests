@@ -8,12 +8,12 @@ A florist ordered a large box of tulip bulbs. The box contains either 75% red-fl
 
 Here are the probabilities under the two hypotheses:
 
-<center>
+<p align="center">
 |         | 0    | 1    | 2    | 3    | 4    | 5    |
 |---------|------|------|------|------|------|------|
 | 75% red | .001 | .015 | .088 | .264 | .396 | .237 |
 | 30% red | .168 | .360 | .309 | .132 | .028 | .002 |
-</center>
+</p>
 
 What should the florist do after he observes the result?
 
