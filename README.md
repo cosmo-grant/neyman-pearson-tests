@@ -4,7 +4,7 @@ The `neyman_pearson_tests` module provides functions to illustrate Neyman-Pearso
 
 ## Example
 
-A florist ordered a large box of tulip bulbs. The box contains either 75% red-flowering and 25% yellow-flowering tulips, or 30% red-flowering and 70% yellow-flowering tulips. But he can't remember which. To find out, he plants 5 bulbs at random and counts how many produce red flowers. (The example is adapted from one in Howson and Urbach's *Scientific Reasoning: The Bayesian Aproach*, which is itself adapted from one in Kyburg's *Logical Foundations of Statistical Inference*.)
+A florist ordered a large box of tulip bulbs. The box contains either 75% red-flowering and 25% yellow-flowering tulips, or 30% red-flowering and 70% yellow-flowering tulips. But he can't remember which. To find out, he plants 5 bulbs at random and counts how many produce red flowers. (The example is adapted from one in Howson and Urbach's *Scientific Reasoning: The Bayesian Approach*, which is itself adapted from one in Kyburg's *Logical Foundations of Statistical Inference*.)
 
 Here are the probabilities under the two hypotheses:
 
