@@ -2,9 +2,9 @@
 
 The `neyman_pearson_tests` module provides functions to illustrate Neyman-Pearson tests, a common kind of test in statistics. The module is intended as a teaching tool. This README explains in tandem how the tests work and how to use the functions.
 
-## Example
+## The question
 
-A florist ordered a large box of tulip bulbs. The box contains either 75% red-flowering and 25% yellow-flowering tulips, or 30% red-flowering and 70% yellow-flowering tulips. But he can't remember which. To find out, he plants 5 bulbs at random and counts how many produce red flowers. (The example is adapted from one in Howson and Urbach's *Scientific Reasoning: The Bayesian Approach*, which is itself adapted from one in Kyburg's *Logical Foundations of Statistical Inference*.)
+A florist ordered a large box of tulip bulbs. The box contains either 75% red-flowering and 25% yellow-flowering tulips, or 30% red-flowering and 70% yellow-flowering tulips. But he can't remember which. To find out, he plants 5 bulbs at random and counts how many produce red flowers. (The example is adapted from one by Howson and Urbach, who themselves adapted it from one by Kyburg.)
 
 Here are the probabilities under the two hypotheses:
 
@@ -13,7 +13,7 @@ Here are the probabilities under the two hypotheses:
 | 75% red | .001 | .015 | .088 | .264 | .396 | .237 |
 | 30% red | .168 | .360 | .309 | .132 | .028 | .002 |
 
-What should the florist do after he observes the result?
+The question is: what should the florist do after he observes the result?
 
 ## Neyman and Pearson's answer
 
